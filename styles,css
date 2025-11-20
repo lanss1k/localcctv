@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+/* NAVBAR */
+
+nav {
+    width: 100%;
+    background: #111;
+    color: white;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+/* HERO SECTION */
+
+.hero {
+    background: linear-gradient(180deg, #ffe22e, #ffd000);
+    text-align: center;
+    padding: 120px 20px;
+    color: #222;
+}
+
+.hero h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.hero button {
+    padding: 12px 28px;
+    background: #111;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.hero button:hover {
+    background: #333;
+}
+
+
+/* FOOTER */
+
+footer {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px;
+}
+
+
+/* GENERAL LAYOUT FIX */
+
+body {
+    background: #fff;
+    min-height: 100vh;
+}
+
+
+/* RESPONSIVE DESIGN */
+
+@media(max-width: 768px) {
+    nav ul {
+        gap: 15px;
+    }
+    .hero h1 {
+        font-size: 32px;
+    }
+    .hero p {
+        font-size: 16px;
+    }
+}
